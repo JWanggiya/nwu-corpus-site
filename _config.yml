@@ -1,0 +1,12 @@
+baseurl: ""
+title: "西北大学经济管理学院铸牢中华民族共同体意识语料库"
+description: "一个自动化的语料库系统，支持首字母索引、搜索与词条上传"
+theme: minima
+collections:
+  entries:
+    output: true
+    permalink: /entries/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
